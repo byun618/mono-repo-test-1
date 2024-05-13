@@ -13,6 +13,7 @@
   "devDependencies": {
     "@acme/eslint-config": "workspace:*",
     "@changesets/cli": "^2.27.1",
+    "@doublenc-inc/prettier-config": "^0.0.1",
     "eslint": "^8.57.0",
     "prettier": "^3.2.5",
     "turbo": "latest"
@@ -20,5 +21,6 @@
   "packageManager": "pnpm@8.9.0",
   "engines": {
     "node": ">=18"
-  }
+  },
+  "prettier": "@doublenc-inc/prettier-config"
 }
