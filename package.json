@@ -11,9 +11,9 @@
     "release": "turbo build --filter=docs^... && changeset publish"
   },
   "devDependencies": {
-    "@acme/eslint-config": "workspace:*",
     "@changesets/cli": "^2.27.1",
     "@doublenc-inc/prettier-config": "^0.0.1",
+    "@package/eslint-config": "*",
     "eslint": "^8.57.0",
     "prettier": "^3.2.5",
     "turbo": "latest"
